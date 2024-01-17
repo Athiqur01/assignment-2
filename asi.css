@@ -53,6 +53,19 @@
         color: #424247;
     }
 
+    .three-bar-icon{
+       
+        min-width: 20px;
+        min-height: 20px;
+        display: none;
+    }
+    .three-bar {
+        width: 24px;
+        height: 3px;
+        background-color: black;
+        margin: 3px 0;
+    }
+
 
     #header-image{
         
@@ -343,6 +356,9 @@
 
 
     /*section-2 end-----------------------------*/
+
+    
+
     /*section-3 start-----------------------------*/
 
     .section3-text h3{
@@ -468,6 +484,35 @@
         display: flex;
         justify-content: space-between;
         margin-top: 100px;
+        position: relative;
+     }
+
+     #sticker {
+        
+        
+     }
+
+     #sticker p{
+        width: 250px;
+        height: 80px;
+        background-color: #FF5400;
+        transform: rotate(-35deg);
+        position: absolute;
+        left: 74%;
+        top: 3920px;
+        padding: 6px;
+        border-radius: 10px;
+        text-align: center;
+     }
+     #sticker-web {
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 400;
+     }
+     #sticker-discount {
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 800;
      }
      .button2{
         background: #FF5400;
@@ -479,6 +524,52 @@
         font-size: 20px;
         
      }
+
+     #section5{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .section5-text{
+        width:50%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .section5-image{
+        width: 50%;
+    }
+    .section5-image img{
+        width: 100%;
+        border-radius: 16px;
+    }
+    .section5-text p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #5A5A5D;
+        padding-right: 40px;
+        text-align: justify;
+    }
+    .section5-text h1{
+        font-size: 40px;
+        font-weight: 800;
+        color: 
+        
+        
+    }
+    .button3{
+        width: 174px;
+        height: 52px;
+        background-color: #FF5400;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 8px;
+        margin-top: 50px;
+        margin-right:100px ;
+    }
+
      /*footer-----------------------------------------------*/
      .footer-contarine{
         margin: 0 auto;
@@ -564,11 +655,27 @@
 
     @media screen and (max-width:599px) {
 /*header--------------------------start-----------*/
-        .nav-container{
+.header-container{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;}  
+    
+    .three-bar-icon{
+        
+        min-width: 20px;
+        min-height: 20px;
+        display: inline;
+        margin: auto;
+        padding: 5px;
+
+    }
+.nav-container{
             flex-direction: column;
         }
         #nav-name{
-            width: 550px;
+            padding-left: 0px;
+            width: 420px;
         }
         #nav-manu{
             display: none;
@@ -620,7 +727,7 @@
           }
 
         .section-text p{
-            width: 530px;
+            width: 100%;
         }
         /* section-1 start-----------------------------------------*/
         .section1-text-container{
@@ -636,8 +743,8 @@
         
         
         .section1-image img{
-            width: 100%;
-            height: 100%;
+            width: 410px,
+            
         }
         .section1-image{
             width: 100%;
@@ -654,7 +761,7 @@
         }
         .para1{
             
-            padding-right: 80px;
+            padding-right: 0px;
             text-align: justify;
             color: rgba(19, 19, 24, 0.70);
             font-size: 16px;
@@ -662,7 +769,7 @@
         }
         #para2{
             
-            padding-right: 80px;
+            padding-right: 0px;
             text-align: justify;
             color: rgba(19, 19, 24, 0.70);
             font-size: 16px;
@@ -707,7 +814,43 @@
             display: flex; 
             flex-direction: column;
         } 
-        
+        /*section 5........................*/
+
+#section5{
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+}
+.section5-text{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.section5-image{
+    width: 100%;
+}
+.section5-image img{
+    width: 100%;
+    border-radius: 16px;
+}
+.section5-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5A5A5D;
+    padding-right: 0px;
+    text-align: justify;
+}
+.section5-text h1{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}  
 /*section-3 start-----------------------------*/
 .section3-text h3{
     width: 154px;
@@ -811,9 +954,32 @@
  .section4-image img{
     width: 100%;
     height: 100%;
-    
-
  }
+ #sticker p{
+    width: 214px;
+    height: 60px;
+    background-color: #FF5400;
+    transform: rotate(-35deg);
+    position: absolute;
+    left: 45%;
+    top: 6500px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+ }
+ #sticker-web {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+ }
+ #sticker-discount {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 800;
+ }
+
+
  hr{ 
     width: 450px  
     }
+}

@@ -260,11 +260,21 @@
     }
     #tour1 img{
         width: 100%;
+        position: relative;
+    }
+    .indonishia{
+        position: absolute;
+        left: 63%;
+        top: 108rem;
     }
     #tour0 img{
         width: 100%;
-        
-        
+        position: relative;   
+    }
+    .maldives{
+        position: absolute;
+        left: 25%;
+        top: 108rem;
     }
     
 
@@ -287,6 +297,12 @@
     #tour2{
         grid-column: 1/span 3;
         grid-row: 1/ span 1;
+        position: relative;
+    }
+    .srilinka{
+        position: absolute;
+        left: 25%;
+        top: 108rem;
     }
    
     #tour3 {
@@ -814,7 +830,27 @@
            
             display: flex; 
             flex-direction: column;
+            
         } 
+
+        #tour1 img{
+            width: 100%;
+            position: relative;
+        }
+        .indonishia{
+            position: absolute;
+            left: 27%;
+            top: 160rem;
+        }
+        #tour0 img{
+            width: 100%;
+            position: relative;   
+        }
+        .maldives{
+            position: absolute;
+            left: 27%;
+            top: 145rem;
+        }
         /*section 5........................*/
 
 #section5{

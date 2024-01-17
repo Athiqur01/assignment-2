@@ -658,17 +658,17 @@
 /*header--------------------------start-----------*/
 .header-container{
     
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 50px;}  
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    margin-top: 3.125rem;}  
     
     .three-bar-icon{
         
-        min-width: 20px;
-        min-height: 20px;
+        min-width: 1.25rem;
+        min-height: 1.25rem;
         display: inline;
         margin: auto;
-        padding: 5px;
+        padding: 0.3rem;
 
     }
 .nav-container{
@@ -676,7 +676,7 @@
         }
         #nav-name{
             padding-left: 0px;
-            width: 420px;
+            width: 26.25rem;
         }
         #nav-manu{
             display: none;
@@ -686,7 +686,7 @@
         #header-image{
         
             
-            min-height: 500px;
+            min-height: 31.25rem;
             width:100%;
             background-size: cover;
             border-radius: 1rem;
@@ -698,25 +698,25 @@
         }
         .input-field{
             flex-direction: column;
-            border-radius: 8px;
+            border-radius: .5rem;
             background: rgba(255, 255, 255, 0.30);
-            height: 256px;
-            width: 255px;
+            height: 16rem;
+            width: 16rem;
             justify-content: center;
             align-items: center;
-            row-gap: 8px;
+            row-gap: .5rem;
         }
 
         .header-image-text h2{
-            width: 205px;
-            font-size: 22px;
+            width: 16.8rem;
+            font-size: 1.375rem;
             color: #FFF;
             text-align: center;
         }
 
         .header-image-text p{
-            width: 304px;
-            font-size: 14px;
+            width: 19rem;
+            font-size: 0.875rem;
             text-align: center;
         }
 
@@ -750,14 +750,14 @@
         .section1-image{
             width: 100%;
             height: 100%;
-            margin-top: 80px;
+            margin-top: 5rem;
         }
         .ul-para{
            
             
             text-align: justify;
             color: rgba(19, 19, 24, 0.70);
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 400;
         }
         .para1{
@@ -765,7 +765,7 @@
             padding-right: 0px;
             text-align: justify;
             color: rgba(19, 19, 24, 0.70);
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 400;
         }
         #para2{
@@ -773,18 +773,18 @@
             padding-right: 0px;
             text-align: justify;
             color: rgba(19, 19, 24, 0.70);
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 400;
         }
         .button02{
-            width: 174px;
-            height: 52px;
+            width: 10.875rem;
+            height: 3.25rem;
             background-color: #FF5400;
             color: #FFF;
-            font-size: 20px;
+            font-size: 1.25rem;
             font-weight: 800;
-            border-radius: 8px;
-            margin-top: 120px;
+            border-radius: 0.5rem;
+            margin-top: 7.5rem;
         }
     
         
@@ -792,14 +792,14 @@
         /*---------section-2 start--------*/
         .section2-text h4{
 
-            font-size: 20px;
-            width: 239px;
+            font-size: 1.25rem;
+            width: 14.94rem;
             text-align: center;
         }
         .section2-text p{
 
-            font-size: 14px;
-            width: 309px;
+            font-size: .9rem;
+            width: 19.3125rem;
             font-weight: 400;
             text-align: center;
         }
@@ -807,7 +807,7 @@
         .image0to1{
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(1, 1fr);
-            row-gap: 24px;
+            row-gap: 1.25rem;
             
         }
         #image2to6{
@@ -819,8 +819,8 @@
 
 #section5{
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 
     
 }
@@ -835,59 +835,59 @@
 }
 .section5-image img{
     width: 100%;
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 .section5-text p{
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 400;
     color: #5A5A5D;
     padding-right: 0px;
     text-align: justify;
 }
 .section5-text h1{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     
     
 }  
 /*section-3 start-----------------------------*/
 .section3-text h3{
-    width: 154px;
-    font-size: 20px;
-    padding-bottom: 24px;
+    width: 9.625rem;
+    font-size: 1.25rem;
+    padding-bottom: 1.5rem;
 
  }
  .section3-text p{
-    width: 309px;
-    font-size: 14px;
+    width: 19.31rem;
+    font-size: .9rem;
  }
 
  .card12{
     flex-direction: column;
-    gap: 24px;
+    gap: 1.50rem;
     justify-content: center;
     align-items: center;
  }
  .card {
-    width: 235px;
-    height: 289px;
-    border-radius: 16px;
+    width: 14.68rem;
+    height: 18.06rem;
+    border-radius: 1rem;
  }
 
  .card h5 {
     color: #131318;
     text-align: left;
-    font-size: 20px;
-    width: 184px;
+    font-size: 1.25rem;
+    width: 11.5rem;
     
  }
  .card p {
     color: #5A5A5D;;
     text-align: left;
-    font-size: 14px;
-    width: 255px;
+    font-size: .9rem;
+    width: 15.94rem;
  }
  /*section-4 Start-----------------------------*/
  #section4{
@@ -896,7 +896,7 @@
  }
 
  .section4-text{
-    width: 320px;
+    width: 20rem;
     padding-left: 20;
 
     
@@ -905,7 +905,7 @@
 
 .section4-text h4{
    color: #131318;
-   font-size: 20px;
+   font-size: 1.25rem;
    font-weight: 800;
 
    
@@ -913,43 +913,43 @@
 
 .section4-text p{
    color: #5A5A5D;
-   font-size: 14px;
-   width: 270px;
+   font-size: .9rem;
+   width: 16.87rem;
 }
 
 .section4-text{
-    border-radius: 16px;
+    border-radius: 1rem;
     border: 1px solid #FF5400;
-    width: 345px;
+    width: 21.56rem;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding-left: 60px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    gap: 1.5rem;
+    padding-left: 3.75rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     
  }
 .input{
-   width: 268px;
-   border-radius: 8px;
+   width: 16.56;
+   border-radius: 0.5rem;
    background: rgba(19, 19, 24, 0.05);
    border: none;
-   height: 52px; 
+   height: 3.25rem; 
 }
 .button2{
     background: #FF5400;
     color: #FFF;
-    width: 288px;
+    width: 18rem;
     border-radius: 8px;
     border: none;
-    height: 52px; 
-    font-size: 20px;
+    height: 3.25rem; 
+    font-size: 1.25rem;
     
  }
  .section4-image {
-    width: 410px;
-    height: 300px;
-    margin: 30px auto;
+    width: 25.6rem;
+    height: 18.75rem;
+    margin: 1.875rem auto;
 
  }
  .section4-image img{
@@ -957,20 +957,20 @@
     height: 100%;
  }
  #sticker p{
-    width: 214px;
-    height: 60px;
+    width: 13.3rem;
+    height: 3.75rem;
     background-color: #FF5400;
     transform: rotate(-35deg);
     position: absolute;
-    left: 45%;
-    top: 406.25rem;
-    padding: 6px;
-    border-radius: 10px;
+    left: 44%;
+    top: 890%;
+    padding: 0.375rem;
+    border-radius: 0.625rem;
     text-align: center;
  }
  #sticker-web {
     color: #FFF;
-    font-size: 15px;
+    font-size: .9rem;
     font-weight: 400;
  }
  #sticker-discount {
@@ -981,6 +981,6 @@
 
 
  hr{ 
-    width: 450px  
+    width: 28rem;  
     }
 }
